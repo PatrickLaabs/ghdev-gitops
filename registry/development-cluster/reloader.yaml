@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: http://gitea-development-cluster.projekte.eitco.de/gitea_admin/development-gitops.git
+    repoURL: https://github.com/PatrickLaabs/ghdev-gitops.git
     path: registry/development-cluster/components/reloader
     targetRevision: HEAD
   destination:

@@ -1,5 +1,5 @@
 provider "kubernetes" {
-  config_path = "/home/patrick/.k1/kubefirst/kubeconfig"
+  config_path = "/home/patrick/Development/vsphere-clusterapi-files/Kubeconfs/development-cluster.kubeconfig"
 }
 
 resource "vault_auth_backend" "k8s" {
