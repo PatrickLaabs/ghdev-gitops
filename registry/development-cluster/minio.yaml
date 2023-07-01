@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/PatrickLaabs/ghdev-gitops.git
-    path: registry/kubefirst/components/minio
+    path: registry/development-cluster/components/minio
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
